@@ -1,0 +1,6 @@
+mvn archetype:generate -DgroupId=SeleniumMavenProjectJava -DartifactId=MavenProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+cd MavenProject
+
+mvn eclipse:eclipse
