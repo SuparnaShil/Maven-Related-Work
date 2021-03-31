@@ -4,3 +4,15 @@ mvn archetype:generate -DgroupId=SeleniumMavenProjectJava -DartifactId=MavenProj
 cd MavenProject
 
 mvn eclipse:eclipse
+
+go to file location with comand prompt
+
+mvn clean
+mvn compile
+mvn test
+
+After adding testng files and add id in the pom file
+To run one (smoke testing) test
+
+mvn test -PRegression
+mvn test -PSmoke
